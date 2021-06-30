@@ -1,0 +1,92 @@
+.AppUp{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    padding: 5% 7%;
+    width: 60%;
+    background-color: white;
+    border-radius: 0.3rem;
+}
+
+.alingUp{
+    display: flex;
+}
+
+.alingUp .quotationmark{
+    margin-right: 1rem;
+    margin-top: 1.4rem;
+    font-size: 7rem;  
+    line-height: 1.5rem;
+}
+.alingUp p{
+    font-size: 1.3rem;
+}
+
+.App-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top:1.5rem;
+}
+.quotationmark{
+    font-size: 2rem;
+}
+
+.author {
+    text-align: right;
+}
+.App-buttons .change {
+    text-align: center;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    position: relative;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 7.5rem;
+    height: 2.5rem;
+}
+
+.App-buttons .Twitter {
+    text-align: center;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    position: relative;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 4rem;
+    height: 2.5rem;
+}
+
+.App-buttons .Twitter img {
+    text-align: center;
+    width: 2.4rem;
+}
+
+
+.App-buttons .Google {
+    text-align: center;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    position: relative;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 4rem;
+    height: 2.5rem;
+}
+
+.App-buttons .Google img {
+    text-align: center;
+    width: 1.8rem;
+}
+
+
